@@ -22,8 +22,6 @@ name: lint_changed_files
 # Workflow triggers:
 on:
   push:
-    branches:
-      - develop
   pull_request:
     types:
       - opened
